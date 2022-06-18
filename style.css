@@ -16,7 +16,7 @@ body, main{
 
 main{
    width: 50%;
-   background-image: url(./images/bg-intro-desktop.png);
+   background-image: url('./images/bg-intro-desktop.png');
 }
 
 main div{
@@ -26,6 +26,6 @@ main div{
 @media screen and (max-width: 375px){
    main{
       display: block;
-      background-image: url(./images/bg-intro-mobile.png);
+      background-image: url('./images/bg-intro-mobile.png');
    }
 }
