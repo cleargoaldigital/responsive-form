@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body{
+   font-size: 16px;
+   font-family: cursive;
+}
+body, main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+main{
+   width: 50%;
+   background-image: url(./images/bg-intro-desktop.png);
+}
+
+main div{
+   margin: 10px;
+}
+
+@media screen and (max-width: 375px){
+   main{
+      display: block;
+      background-image: url(./images/bg-intro-mobile.png);
+   }
+}
