@@ -15,17 +15,74 @@ body, main{
 }
 
 main{
-   width: 50%;
+   width: 80%;
    background-image: url('./images/bg-intro-desktop.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
 }
 
 main div{
-   margin: 10px;
+   margin: 5px;
+   font-size: .879em;
+   width: 100%;
 }
 
-@media screen and (max-width: 375px){
+.learn-code{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+form{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 25px;
+}
+
+form p{
+   font-size: .34em;
+}
+input{
+   padding: 5px;
+   margin: 4px;
+}
+
+button{
+   font-size: .835em;
+   padding: 5px;
+   border-radius: 3px;
+   border: none;
+   color: #fff;
+}
+
+.try{
+   background-color: hsl(248, 32%, 49%);
+   font-size: .67em;
+}
+
+span:nth-child(1){
+   color: hsl(246, 25%, 77%);
+}
+
+.claim{
+   background-color: hsl(154, 59%, 51%);
+   margin: auto;
+   font-size: .973em;
+   padding: 3px;
+}
+
+.span2{
+   color: hsl(0, 100%, 74%);
+}
+
+/* @media screen and (max-width: 375px){
    main{
       display: block;
       background-image: url('./images/bg-intro-mobile.png');
    }
-}
+} */
