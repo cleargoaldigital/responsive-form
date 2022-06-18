@@ -1,6 +1,8 @@
 # single-page-resp
 Build a single-page responsive registration form
 
+Access page through this link: https://cleargoaldigital.github.io/responsive-form/
+
 
 # Front-end Style Guide
 
